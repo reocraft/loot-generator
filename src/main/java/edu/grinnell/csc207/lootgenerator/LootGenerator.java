@@ -176,6 +176,7 @@ public class LootGenerator {
 
 
         Monsters randomMonster = monsters.get(rand.nextInt(monsters.size()));
+        System.out.println("Fighting " + randomMonster.getName());
         System.out.println("You killed a " + randomMonster.getName() + "!");
         System.out.println(randomMonster.getName() + " Dropped:\n");
         String obtainedDrop = getDrop(randomMonster.getTreasureClass());
@@ -200,7 +201,7 @@ public class LootGenerator {
     }
 
     public static void main(String[] args) {
-        System.out.println("This program kills monsters and generates loot!");
+        // System.out.println("This program kills monsters and generates loot!");
         LootGenerator lg = new LootGenerator();
         lg.run();
     }
