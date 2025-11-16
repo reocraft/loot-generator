@@ -1,12 +1,11 @@
 # Project: Loot Generator
 
-Authors: (_TODO: fill in names here!_)
+Authors: Reo Saito, Rayane Nossair, Matt Malek
 
 ## Resources
 
-*   (_TODO: fill in resources here!_)
-*   ...
-*   ...
+*   Java: openjdk version 21.0.8
+*   VSCode: Version 1.106.0 (Universal)
 
 ## Revision Log
 
